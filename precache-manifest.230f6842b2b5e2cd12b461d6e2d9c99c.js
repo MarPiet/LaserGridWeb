@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e34fbf5f1274b988586a915ce8bd3812",
+    "revision": "2e125d48ff90349faff8551531a192e2",
     "url": "/LaserGridWeb/index.html"
   },
   {
-    "revision": "6a8e2e114b21130f6b6b",
-    "url": "/LaserGridWeb/static/css/main.a56731c2.chunk.css"
+    "revision": "9e956f0141c1cf4a663f",
+    "url": "/LaserGridWeb/static/css/main.7168446b.chunk.css"
   },
   {
     "revision": "a1d10441df2d2347b995",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LaserGridWeb/static/js/2.2104c36a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6a8e2e114b21130f6b6b",
+    "revision": "9e956f0141c1cf4a663f",
     "url": "/LaserGridWeb/static/js/main.03a9f029.chunk.js"
   },
   {
