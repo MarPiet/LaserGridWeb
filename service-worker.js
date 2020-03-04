@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LaserGridWeb/precache-manifest.bbb8bf0af9cf7b613f218c2d8ad479a5.js"
+  "/LaserGridWeb/precache-manifest.0e52036d481718bf91a5f7f9c769224d.js"
 );
 
 self.addEventListener('message', (event) => {
