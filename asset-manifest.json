@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/LaserGridWeb/static/css/main.6ae11a09.chunk.css",
+    "main.js": "/LaserGridWeb/static/js/main.03a9f029.chunk.js",
+    "main.js.map": "/LaserGridWeb/static/js/main.03a9f029.chunk.js.map",
+    "runtime-main.js": "/LaserGridWeb/static/js/runtime-main.a6143e59.js",
+    "runtime-main.js.map": "/LaserGridWeb/static/js/runtime-main.a6143e59.js.map",
+    "static/js/2.2104c36a.chunk.js": "/LaserGridWeb/static/js/2.2104c36a.chunk.js",
+    "static/js/2.2104c36a.chunk.js.map": "/LaserGridWeb/static/js/2.2104c36a.chunk.js.map",
+    "index.html": "/LaserGridWeb/index.html",
+    "precache-manifest.bbb8bf0af9cf7b613f218c2d8ad479a5.js": "/LaserGridWeb/precache-manifest.bbb8bf0af9cf7b613f218c2d8ad479a5.js",
+    "service-worker.js": "/LaserGridWeb/service-worker.js",
+    "static/css/main.6ae11a09.chunk.css.map": "/LaserGridWeb/static/css/main.6ae11a09.chunk.css.map",
+    "static/js/2.2104c36a.chunk.js.LICENSE.txt": "/LaserGridWeb/static/js/2.2104c36a.chunk.js.LICENSE.txt",
+    "static/media/LG_FLAME.jpg": "/LaserGridWeb/static/media/LG_FLAME.f5c5ea4f.jpg",
+    "static/media/LG_HP.jpg": "/LaserGridWeb/static/media/LG_HP.0e1123dc.jpg",
+    "static/media/LG_LASER.jpg": "/LaserGridWeb/static/media/LG_LASER.c8edfebb.jpg",
+    "static/media/LG_MAP1.jpg": "/LaserGridWeb/static/media/LG_MAP1.e5cf84a1.jpg",
+    "static/media/LG_MAP2.jpg": "/LaserGridWeb/static/media/LG_MAP2.ceb0d1d9.jpg",
+    "static/media/LG_MINE.jpg": "/LaserGridWeb/static/media/LG_MINE.ce744f69.jpg",
+    "static/media/LG_SHIELD.jpg": "/LaserGridWeb/static/media/LG_SHIELD.6ad76e92.jpg",
+    "static/media/LG_TORPEDO.jpg": "/LaserGridWeb/static/media/LG_TORPEDO.4943f0a0.jpg",
+    "static/media/build-ICON.png": "/LaserGridWeb/static/media/build-ICON.803f7478.png",
+    "static/media/style.css": "/LaserGridWeb/static/media/starry sky.53081755.png",
+    "static/media/logoready.png": "/LaserGridWeb/static/media/logoready.a24fa2e9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6143e59.js",
+    "static/js/2.2104c36a.chunk.js",
+    "static/css/main.6ae11a09.chunk.css",
+    "static/js/main.03a9f029.chunk.js"
+  ]
+}
