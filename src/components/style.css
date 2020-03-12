@@ -1,0 +1,364 @@
+/*
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }
+  */
+  body, html{
+    background-image: url("../img/starry\ sky.png");
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #f4f4f4;
+    line-height: 1.5;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+    padding: 0;
+}
+
+.container h1{
+    text-align: center;
+    font-weight: lighter;
+    color: #DDDDDD;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+header{
+    background-image: url("../img/credits_background.png");
+    background-position: 20%;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: black 3px solid;
+}
+
+header ul{
+    list-style-type: none; 
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    display: flex;
+    
+}
+
+header li{
+  
+    flex: 1;
+}
+
+#home{
+  font-size: 25px;
+}
+
+header li:nth-child(2){
+  flex: 0 1 auto;
+  left: 250px;
+  position: relative; 
+}
+header li:nth-child(3){
+  left: 250px;
+  position: relative;
+}
+header li span{
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+header li span:hover{
+  color: lightcoral;
+}
+
+#showcase{
+    min-height: 180px;
+}
+
+.videobox .gametext{
+    float: left;
+    width: 20%;
+    padding-left: 30px;
+}
+
+.videobox iframe{
+    width: 60%;
+}
+
+.infobox ul{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.infobox li{
+    padding-left: 200px;
+    padding-bottom: 80px;
+    padding-top: 60px;
+    list-style-type: none;
+    margin: 0;  
+}
+
+.infobox .infotextbox{
+    float: right;
+}
+
+#textlogo{
+    cursor: pointer;
+    position: absolute;
+    top: -45px;
+    left: 44.8%;    
+}
+
+#homelogo{
+  cursor: pointer;
+    opacity: 0.8;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: transform .2s ease; 
+}
+
+#homelogo:hover{
+    opacity: 1;
+    transition: transform .2s ease;
+    transform: translate(20px, 20px) scale(1.5);
+}
+
+form{
+    text-align: center;
+}
+
+form .container {
+    display: inline-block;
+    width: 40%;
+    margin: 0px;
+}
+
+input{
+    width: 100%;
+    padding: 10px 0 10px 0;
+    background-color: lightblue;
+    color: black;
+    border: none;   
+}
+
+.registerbtn{
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+
+}
+
+.registerbtn:hover{
+    background-color: lightcoral;
+}
+
+form h1{
+    font-size: 20px;
+}
+
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    top: 0px;
+  }
+
+  .mySlides {
+    display: none;
+  }
+
+ .mySlides > img{
+    max-width: 1000px;
+  }
+
+  .mapContainer{
+    text-align: center;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    top: 100px;
+  }
+
+  .mapContainer > img{
+    max-width: 1000px;
+    max-height: 1000px;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .text {
+    color: #DDDDDD;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: -35px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    color: black;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  #downloadContainer{
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    height: 100vw;
+  }
+
+  #downloadContainer a{
+    width: 100%;
+    height: 100px;
+  }
+
+  #downloadimg{
+    position: relative;
+    max-width: 120px;
+    max-height: 120px;
+    transition: transform .2s ease; 
+  }
+
+  #downloadimg:hover{
+    transition: transform .2s;
+    transform: scale(1.5);
+  }
+
+  #downloadTextContainer{
+    margin: auto;
+    margin-top: 50px;
+    height: fit-content;
+    background-color: darkblue;
+    opacity: 0.5;
+    width: 50%;
+    border: 1px solid white;
+  }
+
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @media(max-width: 1150px){
+      .gametext{
+         
+          width: fit-content !important;
+          position: relative;
+       
+      }
+      nav ul{
+          flex-direction: column;
+          left: -50px;
+          position: relative;  
+      }
+      .videobox iframe{
+          width: 100%;
+      }
+
+  .mapContainer > img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .mySlides > img{
+    max-width: 100%;
+  }
+  header li span{
+    font-size: 18px;
+  }
+
+
+  }
+
+  @media(max-width: 1480px){
+    #textlogo{
+        right:  0% !important;
+        left: initial;
+    }   
+    header li:nth-child(2){
+      left: 0px;
+    }
+    header li:nth-child(3){
+      left: 0px;
+    }
+  }
+  @media(max-width: 1620px){
+    #downloadimg{
+      max-width: 120px;
+      max-height: 120px;
+  }
+}
